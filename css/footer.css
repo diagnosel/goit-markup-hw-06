@@ -11,12 +11,13 @@
 }
 
 .footer-info {
-  text-align: center;
+  text-align: left;
 }
 
 .footer-logo {
-  display: inline-block;
-  margin-bottom: 16px;
+  display: block;
+  width: max-content;
+  margin: 0 auto 16px;
   color: var(--light);
 }
 
@@ -151,6 +152,10 @@
 
   .footer-info {
     margin-right: 0;
+  }
+
+  .footer-logo {
+    margin-left: 0;
   }
 
   .footer-subscribe {
